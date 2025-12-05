@@ -5,7 +5,7 @@ However, pre-trained YOLO-pose models—originally trained on COCO-style full-bo
 To address this limitation, I fine-tuned the YOLOv8-pose model on a custom dataset containing manually annotated lower-body keypoints, achieving significantly improved detection and tracking performance for gait analysis tasks.
 
 This repository provides a **fine-tuned YOLOv8-pose model** specialized for **lower-body (legs) keypoint detection** in gait videos.  
-The model was trained on manually annotated lower-body data using **CVAT**, focusing on 10 keypoints:
+The model was trained on manually annotated lower-body data using **CVAT**(https://www.cvat.ai/), focusing on 10 keypoints:
 > L & R Hip, L & R Knee, L & R Ankle, L & R Heel, L & R Foot.
 
 ---
