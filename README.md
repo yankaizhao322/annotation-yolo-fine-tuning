@@ -89,18 +89,18 @@ Optimizer: AdamW
 
 # 4. CVAT user manual
 1. Create a Task
-   <img width="900" height="300" alt="屏幕截图 2025-12-04 215929" src="https://github.com/user-attachments/assets/6313f5fb-f633-44ac-9438-4681e0c7ca3f" />
+   <img width="600" height="400" alt="屏幕截图 2025-12-04 215929" src="https://github.com/user-attachments/assets/6313f5fb-f633-44ac-9438-4681e0c7ca3f" />
 2. Name the Task and Create an skeleton
-<img width="900" height="900" alt="屏幕截图 2025-12-04 220021" src="https://github.com/user-attachments/assets/d3756470-c824-420d-aaf3-a1343abb6471" />
+<img width="400" height="400" alt="屏幕截图 2025-12-04 220021" src="https://github.com/user-attachments/assets/d3756470-c824-420d-aaf3-a1343abb6471" />
 
 3.  Upload images or videos for annotation
-<img width="902" height="579" alt="屏幕截图 2025-12-04 220326" src="https://github.com/user-attachments/assets/8999d67c-99bf-4b46-8913-699357e94956" />
+<img width="400" height="400" alt="屏幕截图 2025-12-04 220326" src="https://github.com/user-attachments/assets/8999d67c-99bf-4b46-8913-699357e94956" />
 
 4.  Track skeleton and put them in the correct position
-<img width="931" height="1118" alt="屏幕截图 2025-12-04 220550" src="https://github.com/user-attachments/assets/0d8a24bd-4e39-4312-83c6-6bb8d0bbcf64" />
+<img width="400" height="400" alt="屏幕截图 2025-12-04 220550" src="https://github.com/user-attachments/assets/0d8a24bd-4e39-4312-83c6-6bb8d0bbcf64" />
 
 5.  Download Ultralytics YOLO Pose 1.0 file for fine-tuning YOLO
-<img width="860" height="1135" alt="屏幕截图 2025-12-04 220605" src="https://github.com/user-attachments/assets/2395264d-611d-4735-b6d7-1e631d081945" />
+<img width="400" height="400" alt="屏幕截图 2025-12-04 220605" src="https://github.com/user-attachments/assets/2395264d-611d-4735-b6d7-1e631d081945" />
 
 # 5. Contact
 If you have questions or want to collaborate:
