@@ -1,11 +1,11 @@
-# Fine-Tuned YOLOv8-Pose for Lower-Limb Keypoint Detection
+# Fine-Tuned YOLOv8-Pose for Lower-body Keypoint Detection
 
 In clinical research on Parkinson’s disease (PD) and other gait disorders, video recordings are often restricted to the lower body only to protect patient privacy.
-However, pre-trained YOLO-pose models—originally trained on COCO-style full-body datasets—perform poorly on such lower-limb-only videos, failing to detect or localize keypoints accurately.
+However, pre-trained YOLO-pose models—originally trained on COCO-style full-body datasets—perform poorly on such lower-body-only videos, failing to detect or localize keypoints accurately.
 To address this limitation, I fine-tuned the YOLOv8-pose model on a custom dataset containing manually annotated lower-body keypoints, achieving significantly improved detection and tracking performance for gait analysis tasks.
 
 This repository provides a **fine-tuned YOLOv8-pose model** specialized for **lower-body (legs) keypoint detection** in gait videos.  
-The model was trained on manually annotated lower-limb data using **CVAT**, focusing on 10 keypoints:
+The model was trained on manually annotated lower-body data using **CVAT**, focusing on 10 keypoints:
 > L & R Hip, L & R Knee, L & R Ankle, L & R Heel, L & R Foot.
 
 ---
@@ -14,7 +14,7 @@ The model was trained on manually annotated lower-limb data using **CVAT**, focu
 
 The model was fine-tuned using **videos containing only the lower body of walking subjects**.  
 Each frame was manually labeled in **CVAT** with 10 anatomical keypoints.  
-Fine-tuning significantly improved YOLOv8's accuracy for lower-limb pose estimation and tracking in gait analysis videos.
+Fine-tuning significantly improved YOLOv8's accuracy for lower-body pose estimation and tracking in gait analysis videos.
 
 ---
 
@@ -74,7 +74,7 @@ runs/pose/predict/
 
 Base model: YOLOv8n-pose (yolov8n-pose.pt)
 
-Fine-tuned dataset: custom lower-limb dataset (manually labeled via CVAT)
+Fine-tuned dataset: custom lower-body dataset (manually labeled via CVAT)
 
 Keypoints per instance: 10
 Training epochs: 200
