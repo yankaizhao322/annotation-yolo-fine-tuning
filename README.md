@@ -18,8 +18,9 @@ Fine-tuning significantly improved YOLOv8's accuracy for lower-limb pose estimat
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/<yourname>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/yankaizhao322/Fine-Tuned-YOLOv8-Pose-Lower-body-Keypoints-Motion-Tracking/tree/main
+
+cd Fine-Tuned-YOLOv8-Pose-Lower-body-Keypoints-Motion-Tracking
 
 # 2. (Optional) Create a virtual environment
 python -m venv venv
