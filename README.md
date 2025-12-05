@@ -1,11 +1,14 @@
 # Fine-Tuned YOLOv8-Pose for Lower-body Keypoint Detection
 
 In clinical research on Parkinson’s disease (PD) and other gait disorders, video recordings are often restricted to the lower body only to protect patient privacy.
+
 However, pre-trained YOLO-pose models—originally trained on COCO-style full-body datasets—perform poorly on such lower-limb-only videos, failing to detect or localize keypoints accurately.
+
 To address this limitation, I fine-tuned the YOLOv8-pose model on a custom dataset containing manually annotated lower-body keypoints, achieving significantly improved detection and tracking performance for gait analysis tasks.
+
 In total, I manually annotated over 2,000 frames and validated the model on 30+ two-minute videos (≈100,000 frames).
-For future applications, users can easily prepare their own datasets using CVAT
-, export the annotations in YOLO format, and perform similar fine-tuning for other domain-specific tasks.
+
+For future applications, users can easily prepare their own datasets using CVAT, export the annotations in YOLO format, and perform similar fine-tuning for other domain-specific tasks.
 
 This repository provides a **fine-tuned YOLOv8-pose model** specialized for **lower-body (legs) keypoint detection** in gait videos.  
 The model was trained on manually annotated lower-body data using **CVAT**(https://www.cvat.ai/), focusing on 10 keypoints:
@@ -84,7 +87,10 @@ Training epochs: 200
 Image size: 640
 Optimizer: AdamW
 
-# 4. Contact
+# 4. CVAT user manual
+
+
+# 5. Contact
 If you have questions or want to collaborate:
 
 Author: Yankai Zhao
